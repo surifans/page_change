@@ -8,9 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-/**
- * Created by lenovo on 2018/2/27.
- */
 
 public class firstactivity extends Activity {
     private Button bt1;
