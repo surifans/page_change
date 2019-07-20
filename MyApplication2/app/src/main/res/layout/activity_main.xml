@@ -7,14 +7,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="FragmentActivity 父界面"
+        android:text="主页面"
         android:textSize="26sp" />
     <Button
         android:id="@+id/btnSecond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="跳转到FirstFragment" />
+        android:text="小学语文" />
     <FrameLayout
         android:id="@+id/firstFragment"
         android:layout_width="match_parent"

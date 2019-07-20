@@ -10,12 +10,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-public class FirstFragment extends BackHandledFragment {
+import android.support.v4.app.Fragment;
+
+public class FirstFragment extends Fragment {
     private View myView;
     private Button btnSecond;
     @Override
-    public View onCreateView(LayoutInflater inflater,
-                             @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         myView = inflater.inflate(R.layout.fragment_first, null);
         initView();
         return myView;
@@ -34,8 +35,6 @@ public class FirstFragment extends BackHandledFragment {
             }
         });
     }
-    @Override
-    protected boolean onBackPressed() {
-        return false;
-    }
+
+
 }

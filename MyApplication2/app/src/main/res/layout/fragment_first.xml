@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="FirstFragment"
+        android:text="知识点列表"
         android:textColor="#000000"
         android:textSize="26sp" />
     <Button
@@ -16,5 +16,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="打开SecondFragment" />
+        android:text="知识点1" />
 </RelativeLayout>
